@@ -90,6 +90,7 @@ div .to-the-moon button{
 div .to-the-moon button:hover{
     font-size: 1.2rem;
     padding-left: 10px;
+    transition: all 0.3s ease;
 }
 
 /*============================================================================
@@ -107,17 +108,52 @@ main{
 
 
 /*============== TEXTSTYCKE =============================================*/
+
+main .space-ventures{
+    padding-bottom: 0px;
+}
+
+
+main .space{
+    color: rgb(255, 255, 255);
+    font-family: Rubik, sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px #000;
+    padding-left: 50px;
+    padding-top: 35px;
+    position: relative;
+    text-decoration: solid ;
+    z-index: 1;
+   
+}
+main .ventures{
+    color: rgba(175, 174, 174, 0.9);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 5rem;
+    padding-left: 110px;
+    position: relative;
+    top: -55px;
+}
+
+
+main section h1{
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
 main .text-scrolled{
     color: white;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
     padding-bottom: 5px;
     font-size: 0.7rem;
     line-height: 13pt;
     text-align: left;
-}
-
-main h2{
-    padding: 10px;
+    position: relative;
+    top: -30px;
 }
 .text_one{
     padding: 10px;
@@ -130,7 +166,7 @@ main h2{
 .end-quote{
     padding-left: 10px;
     padding-top: 2px;
-    line-height: 17pt;
+    line-height: 15pt;
 }
 
 /*====================================================================*/
@@ -138,11 +174,12 @@ main h2{
 
 /*==============  CITAT =============================================*/
 
-main .text-scrolled blockquote{
-    padding-left: 30px;
+main .quote-one{
+    padding-left: 40px;
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: left;
     font-family: Rubik, sans-serif;
     font-style: italic;
     font-size: 1.1rem;
