@@ -5,26 +5,13 @@
 }
 
 /*============================================================================
-===============  BAKGRUNDSBILD =============================================
-==========================================================================*/
-
-.astro-pic{
-    background-image: url(./assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg);
-    background-size: cover;
-    background-position: 30% 0%;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-}
-
-/*============================================================================
 ===============  HAMBURGER MENU =============================================
 ==========================================================================*/
 
 nav{
     text-align: right;
     padding:  20px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -53,31 +40,24 @@ button:hover span:nth-child(2) {
     transition: left 0.3s ease-in-out;
 }
 
-/*          OPEN MENU  
-.meny_open{
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 100%;
-    height: 100vh;
-
-}
-.meny_open ul{
-    font-family: Rubik, sans-serif;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    list-style: none;
-    height: 100%;
-    justify-content: space-evenly;
-    text-align: center;
-
-}
-  
-
 /*============================================================================
 ============  TO THE MOON      =============================================
 ==========================================================================*/
 
+
+
+/*==============  BAKGRUNDSBILD =============================================*/
+
+.astro-pic{
+    background-image: url(./assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg);
+    background-size: cover;
+    background-position: 30% 0%;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+}
+
+/*==============  RUTA MED TEXT =============================================*/
 .to-the-moon{
     font-family: Rubik, sans-serif;
     flex-direction: column;
@@ -88,18 +68,20 @@ button:hover span:nth-child(2) {
     text-align: center;
     padding-top: 10px;
     padding-left: 10px;
-    padding-right: 30px;
-    padding-bottom: 5px;
+    padding-right: 20px;
 }
 
 .to-the-moon h1{
     font-weight: 800;
+    padding-bottom: 5px;
+    padding-left: 10px;
 }
 div .read-our-story{
     display: flex;
 }
 div .read-our-story p{
-    padding-top: 10px;
+    padding-top: 12px;
+    font-size: 0.8rem;
     
 }
 div .to-the-moon button{
@@ -114,14 +96,17 @@ div .to-the-moon button:hover{
 ============  MAIN  =============================================
 ==========================================================================*/
 
+/*==============  BAKGRUNDSBILD =============================================*/
 main{
     font-family: Rubik, sans-serif;
     background-image: url(./assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash.size.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
-    
 }
+
+
+/*============== TEXTSTYCKE =============================================*/
 main .text-scrolled{
     color: white;
     padding: 30px;
@@ -147,6 +132,12 @@ main h2{
     padding-top: 2px;
     line-height: 17pt;
 }
+
+/*====================================================================*/
+
+
+/*==============  CITAT =============================================*/
+
 main .text-scrolled blockquote{
     padding-left: 30px;
     padding-right: 30px;
@@ -157,6 +148,11 @@ main .text-scrolled blockquote{
     font-size: 1.1rem;
     font-weight: 300;
 }
+/*====================================================================*/
+
+
+
+/*===============================LÄNK=================================*/
 .read_more{
     color: #d100a1;
     margin: 0;
@@ -172,3 +168,4 @@ main .text-scrolled blockquote{
     display: inline-block;
     font-size: 1.2rem;
 }
+/*====================================================================*/
