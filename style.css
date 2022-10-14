@@ -42,19 +42,23 @@ button:hover span:nth-child(2) {
 }
 /*==============  ÖPPEN MENY =============================================*/
 
-.open-menu{
+.menu{
     background-color: rgb(255, 255, 255, 0.8);
     position: fixed;
-    display: none;
+    display: block;
     top: 0;
     left: 0;
     width: 100%;
     min-height: 100vh;
     z-index: 2;
     padding-top: 120px;
+    transition: 0.4s;
 }
-.open-menu a{
-    display: none;
+.menu li{
+    list-style: none;
+}
+.menu a{
+    display: block;
     text-align: center;
     font-family: Rubik, sans-serif;
     text-decoration: none;
@@ -67,7 +71,17 @@ button:hover span:nth-child(2) {
     margin-left: 40px;
     text-shadow: 0px 4px 1px rgba(148, 141, 141, 0.3);
 }
-
+button + .menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+button.menu-open + .menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
 
 
 /*====================================================================*/
