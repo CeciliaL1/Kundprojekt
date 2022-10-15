@@ -57,10 +57,9 @@ button:hover span:nth-child(2) {
 
 .menu li{
     list-style: none;
-    padding-top: 20px
 }
 .menu li:nth-child(1){
-    padding-top: 80px;
+    padding-top: 140px;
 }
 
 .menu a{
@@ -72,9 +71,8 @@ button:hover span:nth-child(2) {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 3rem;
-    padding-bottom: 75px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-bottom: 75px;
+    padding-left: 40px;
     text-shadow: 0px 4px 1px rgba(148, 141, 141, 0.3);
 }
 
@@ -124,13 +122,13 @@ button.menu-open + .menu {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 20px;
-    width: 150px;
+    width: 180px;
    
 }
 
 .to-the-moon h1{
     font-weight: 800;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-right: 10px;
     display: flex;
 }
@@ -138,8 +136,8 @@ div .read-our-story{
     display: flex;
 }
 div .read-our-story p{
-    padding-top: 10px;
-    font-size: 0.7rem;
+    padding-top: 15px;
+    font-size: 0.8rem;
     
 }
 div .to-the-moon button{
@@ -351,17 +349,19 @@ footer p{
     .read-our-story{
         padding-top: 20px;
         position: relative;
-        left: 170px;
+        left: 150px;
     }
 
-    .menu li a{
-        padding-top: 100px;
-    }
-    
-    .menu li a:hover{
-        text-decoration: underline 5px #d100a1;
-        
-    }
-       
-    
+ 
+   
+}
+@media screen and (min-width: 1780px){
+
+    .menu ul li a{
+        padding-top: 70px;
+        padding-left: 750px;
+        padding-right: 750px;
+        text-align: center;
+
+}
 }
