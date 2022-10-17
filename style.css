@@ -295,7 +295,10 @@ footer p{
     padding-left: 15px;
     padding-right: 10px;
     padding-bottom: 20px;
-}
+    text-shadow: 0 0 10px  #e11bb3, 0 0 10px  #de24b3;
+
+  }
+
 .accept{
     background-color: #081160;
     font-family: Rubik, sans-serif;
@@ -371,6 +374,12 @@ footer p{
         display: block;
         font-size: 2rem;
         padding-bottom: 40px;
+        font-weight: 300;
+
+        background: -webkit-linear-gradient(rgba(209, 0, 161 ,0.3), rgba(212, 209, 209, 0.2), rgba(250, 14, 195, 0.3));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     }
     .end-quote{
         line-height: 2.5;
