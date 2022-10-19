@@ -104,6 +104,18 @@ button.menu-open + .menu {
   min-height: 100vh;
   top: 0;
 }
+.arrow-down{
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  position: relative;
+  top: 400px;
+  left: 45%;
+  &:hover{
+    top: 450px;
+    transition: all 0.3s ease;
+  }
+}
 
 /*==============  RUTA MED TEXT =============================================*/
 .to-the-moon {
@@ -338,13 +350,12 @@ footer p {
   }
 }
 
-
-
-
-
 @media screen and (min-width: 1366px) {
   .astro-pic {
     background-position: 50% 45%;
+  }
+  .arrow-down{
+    display: none;;
   }
   .to-the-moon {
     left: 70px;
