@@ -111,11 +111,12 @@ button.menu-open + .menu {
   position: relative;
   top: 400px;
   left: 45%;
-  &:hover{
+}
+  .arrow-down:hover{
     top: 450px;
     transition: all 0.3s ease;
   }
-}
+
 
 /*==============  RUTA MED TEXT =============================================*/
 .to-the-moon {
@@ -153,6 +154,7 @@ div .read-our-story p {
 div .to-the-moon button {
   font-size: 1.2rem;
   padding-bottom: 5px;
+  color: black;
 }
 
 div .to-the-moon button:hover {
@@ -175,7 +177,7 @@ main {
 
 /*============== TEXTSTYCKE =============================================*/
 .space-ventures {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
   left: 15px;
@@ -355,7 +357,7 @@ footer p {
     background-position: 50% 45%;
   }
   .arrow-down{
-    display: none;;
+    display: none;
   }
   .to-the-moon {
     left: 70px;
@@ -380,6 +382,10 @@ footer p {
   }
   div .to-the-moon button {
     padding-bottom: 10px;
+  }
+  .menu ul li a{
+    padding-right: 500px;
+    padding-left: 500px;
   }
   .menu ul li a:hover {
     -webkit-text-decoration-line: underline;
